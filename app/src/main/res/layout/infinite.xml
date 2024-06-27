@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="550dp"
+    android:layout_height="900dp"
+    android:orientation="horizontal">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="290dp"
+        android:layout_height="262dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="50dp"
+        android:background="#1D1E27"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/finite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="LEVEL-1\n(constant speed)"
+            android:textSize="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/infinite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="LEVEL-2\n(increasing speed)"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/finite"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
