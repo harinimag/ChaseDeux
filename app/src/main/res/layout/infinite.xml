@@ -24,6 +24,7 @@
             android:layout_marginEnd="28dp"
             android:background="@drawable/rounded_corner"
             android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
             android:text="LEVEL-1\n(constant speed)"
             android:textSize="28dp"
             app:layout_constraintEnd_toEndOf="parent"

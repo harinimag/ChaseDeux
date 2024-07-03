@@ -3,4 +3,5 @@
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_tester">tester</string>
     <string name="title_activity_infinite">infinite</string>
+    <string name="title_activity_api_service.kt">ApiService.kt</string>
 </resources>

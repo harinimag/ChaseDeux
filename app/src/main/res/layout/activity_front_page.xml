@@ -5,8 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5C1C1"
-    tools:context=".front_page">
+    android:background="#D5C1C1">
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,9 +28,9 @@
         android:background="#2f4159"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="CHEESE CHASE"
+        android:text="CHASE DEUX"
         android:textColor="@color/white"
-        android:textSize="70dp"
+        android:textSize="75dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
